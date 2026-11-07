@@ -1,0 +1,13 @@
+#!name=AshNet DNS服务
+#!desc=必备服务
+#!author=AshNet
+#!homepage=https://www.jwfq.com/
+#!icon=https://s3-img.png.li/20260825/ac2b1e86845006ef161053ee9e1a3ca5.jpg
+#!category=DNS
+
+[General]
+dns-server = 223.5.5.5, 119.29.29.29, 114.114.114.114
+encrypted-dns-server = https://edge1.ashnet.cc/dns-query, https://edge2.ashnet.cc/dns-query, https://edge3.ashnet.cc/dns-query
+
+[Host]
+*.staticlane.org = server:https://edge1.ashnet.cc/dns-query
