@@ -1,0 +1,7 @@
+#!name=PCDN拦截
+#!desc=拦截 PCDN 调度域名与 B 站 PCDN 镜像节点（mcdn.bilivideo 等），迫使播放回落官方 CDN。名单源自 DuoJLa/PCDN-Block，每日自动同步清洗版，模块与名单均远程更新。
+#!author=DuoJLa (list) / zt41 (module)
+#!homepage=https://github.com/DuoJLa/Loon
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/zt41/surge.config/main/PCDN-Block.list,REJECT
